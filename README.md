@@ -10,8 +10,16 @@ A simple covert channel that reads and writes to files within the Linux /tmp dir
 ### Dependencies
 * Python3
 
-### Executing program
+### Installing
+```
+# Clone this repository
+$ git clone https://github.com/sea7321/tmp-covert-channel.git
 
+# Go into the repository
+$ cd tmp-covert-channel
+```
+
+### Executing program
 To use sender.py and receiver.py, follow the below commands to send an encoded message and decode a message. When encoding, you will be prompted to type in your hidden message.
 
 ```
